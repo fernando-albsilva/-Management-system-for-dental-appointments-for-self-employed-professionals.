@@ -26,3 +26,4 @@ Simples sistema de gestão para dentistas que trabalham em diversos consultório
 ![tela_de_login](https://github.com/fernando-albsilva/-Management-system-for-dental-appointments-for-self-employed-professionals./blob/main/gif/vlogin.gif)
 
 ## Tela de Paciente com cadastro , detalhes , edição e exlcusão.
+![tela_de_Paciente](https://github.com/fernando-albsilva/-Management-system-for-dental-appointments-for-self-employed-professionals./blob/main/gif/telaPaciente.gif)
