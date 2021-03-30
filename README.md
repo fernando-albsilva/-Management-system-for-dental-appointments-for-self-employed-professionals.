@@ -16,7 +16,7 @@ Simples sistema de gestão para dentistas que trabalham em diversos consultório
 
 ## Principais objetivos do sistema
 .Dar a oportunidade do profissional ter acesso a informaçôes relevantes através de qualquer dispositovo com acesso a um navegador web, informações como:
-.. Descrições de consulta e atendimentos detalhados.
-.. Dados de paciente.
-.. Dados de tratamentos.
-.. Dados sobre receita e despesas.
+### Descrições de consulta e atendimentos detalhados.
+###Dados de paciente.
+###Dados de tratamentos.
+###Dados sobre receita e despesas.
