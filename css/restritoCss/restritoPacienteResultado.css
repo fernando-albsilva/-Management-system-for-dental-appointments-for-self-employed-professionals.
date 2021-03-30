@@ -1,0 +1,384 @@
+@media (max-width: 900px) {
+    .none{
+        display: none;
+    }
+   
+     
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        min-height: 84%;
+       
+        width: 100%;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+ 
+    #mainContainer{
+        
+        min-height: 450px;
+        width: 85%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+       
+       
+    }
+    #MainContainerUm{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        justify-content: space-between;
+    }
+
+   
+
+    .flex-collum{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+     
+    }
+  
+    .H1{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.6em;
+        color: #666666;
+        margin:20px 0px 20px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+        
+    }
+    
+
+    .H2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.4em;
+        color: #666666;
+        margin:10px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+        margin: 20px 0 20px 0;
+       
+
+    }
+
+    .H3{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #666666;
+        margin:0px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+
+    }
+    .botaoAzul{
+
+        background-color: rgb(48 132 204);
+        border-radius:28px;
+        border:1px solid rgb(48 132 204);
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:4px 15px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px rgb(107 107 107);
+        margin-right: 20px;
+        margin-bottom: 40px;
+        
+    }
+        
+
+    
+    .botaoAzul:hover{
+        background-color:  rgb(69 120 164);
+        position:relative;
+        top:1px;
+    }
+   
+    .none {
+        display: none;
+    }
+
+ 
+
+ 
+  
+  
+}
+
+@media screen and (min-width: 901px) and (max-width: 1023px) {
+    .none{
+        display: none;
+    }
+   
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        min-height: 84%;
+       
+        width: 100%;
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+ 
+  
+    #mainContainer{
+        
+        min-height: 450px;
+        width: 90%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+       
+       
+    }
+    #MainContainerUm{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        justify-content: space-between;
+    }
+
+   
+
+    .flex-collum{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+     
+    }
+  
+    .H1{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.6em;
+        color: #666666;
+        margin:20px 0px 20px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+        
+    }
+    
+
+    .H2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.4em;
+        color: #666666;
+        margin:10px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+        margin: 20px 0 20px 0;
+       
+
+    }
+
+    .H3{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #666666;
+        margin:0px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+
+    }
+    .botaoAzul{
+
+        background-color: rgb(48 132 204);
+        border-radius:28px;
+        border:1px solid rgb(48 132 204);
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:4px 15px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px rgb(107 107 107);
+        margin-right: 20px;
+        margin-bottom: 40px;
+        
+    }
+        
+
+    
+    .botaoAzul:hover{
+        background-color:  rgb(69 120 164);
+        position:relative;
+        top:1px;
+    }
+   
+    .none {
+        display: none;
+    }
+
+ 
+
+ 
+}
+
+@media (min-width: 1024px) {
+    .none{
+        display: none;
+    }
+   
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        min-height: 84%;
+       
+        width: 100%;
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+ 
+    #mainContainer{
+        
+        min-height: 450px;
+        width: 90%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+       
+       
+    }
+    #MainContainerUm{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        justify-content: space-between;
+    }
+
+   
+
+    .flex-collum{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+     
+    }
+  
+    .H1{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.6em;
+        color: #666666;
+        margin:20px 0px 20px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+        
+    }
+    
+
+    .H2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.4em;
+        color: #666666;
+        margin:10px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+        margin: 20px 0 20px 0;
+       
+
+    }
+
+    .H3{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #666666;
+        margin:0px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+
+    }
+    .botaoAzul{
+
+        background-color: rgb(48 132 204);
+        border-radius:28px;
+        border:1px solid rgb(48 132 204);
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:4px 15px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px rgb(107 107 107);
+        margin-right: 20px;
+        margin-bottom: 40px;
+        
+    }
+        
+
+    
+    .botaoAzul:hover{
+        background-color:  rgb(69 120 164);
+        position:relative;
+        top:1px;
+    }
+   
+    .none {
+        display: none;
+    }
+
+ 
+  
+   
+}

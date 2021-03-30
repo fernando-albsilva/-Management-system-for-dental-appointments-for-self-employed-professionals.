@@ -1,0 +1,641 @@
+@media (max-width: 900px) {
+    .none{
+        display: none;
+    }
+   
+     
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        min-height: 84%;
+       
+        width: 100%;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+ 
+    #mainContainer{
+        
+        min-height: 450px;
+        
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+       
+       
+    }
+    #MainContainerUm{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        justify-content: space-between;
+    }
+
+   
+
+    .flex-collum{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+     
+    }
+    .inputText{
+        display: block;
+        margin:20px 0px 20px 0px ;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border:none;
+        background-color: #f6f6f6;
+        padding-left: 10px;
+        padding-right : 10px ;
+       
+        width: 80%;
+    }
+
+    .inputText:focus{
+        outline-style: none;
+    }
+    .espacoForm{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 10px;
+       width: 95%;
+        background: radial-gradient(circle,rgba(142,167,196,0.9528186274509804) 0%, rgb(149 169 193 / 35%) 0%);
+        border-radius: 20px;
+    }
+    .H1{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.6em;
+        color: #666666;
+        margin:20px 0px 20px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+        
+    }
+    
+
+    .H2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.4em;
+        color: #666666;
+        margin:10px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+       
+
+    }
+
+    .H3{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #666666;
+        margin:0px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+
+    }
+
+    .inputText {
+        display: block;
+        margin: 20px 0px 20px 0px;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border: none;
+        background-color: #f6f6f6;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    #botaoVerde{
+
+        background-color:#44c767;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:4px 30px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+
+    }
+    #botaoVerde:hover{
+        background-color:#5cbf2a;
+        position:relative;
+        top:1px;
+    }
+
+    #popup_mensagem{
+        position: fixed;
+        top:80px;
+        margin:auto;
+        width: 200px;
+        min-height: 250px;
+        padding: 20px 20px 20px 20px;
+        border-width: 2px;
+        border-style: solid;
+        background: black;
+        border-radius: 25px;
+        
+        
+        
+    }
+    #popupContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px 0 20px 0;
+       
+    }
+    #popupContainer2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px 0 20px 0;
+
+    }
+    #popupContainer>h1{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.4em;
+        color: red;
+        word-spacing: 5px;
+        line-height: 18pt;
+        text-align: center;
+        padding: 10px;
+    }
+    #popupContainer>h2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #FFFFFF;
+        word-spacing: 5px;
+        line-height: 18pt;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .none {
+        display: none;
+    }
+
+ 
+  
+  
+}
+
+@media screen and (min-width: 901px) and (max-width: 1023px) {
+    .none{
+        display: none;
+    }
+   
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        min-height: 84%;
+       
+        width: 100%;
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+ 
+    #mainContainer{
+        
+        min-height: 450px;
+        width: 90%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+       
+       
+    }
+    #MainContainerUm{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        justify-content: space-between;
+    }
+
+   
+
+    .flex-collum{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+     
+    }
+    .inputText{
+        display: block;
+        margin:20px 0px 20px 0px ;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border:none;
+        background-color: #f6f6f6;
+        padding-left: 20px;
+        padding-right : 20px ;
+        width :500px;
+    }
+
+    .inputText:focus{
+        outline-style: none;
+    }
+    .espacoForm{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 10px;
+       
+        background: radial-gradient(circle,rgba(142,167,196,0.9528186274509804) 0%, rgb(149 169 193 / 35%) 0%);
+        border-radius: 20px;
+    }
+    .H1{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.6em;
+        color: #666666;
+        margin:20px 0px 20px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+        
+    }
+    
+
+    .H2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.4em;
+        color: #666666;
+        margin:10px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+       
+
+    }
+
+    .H3{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #666666;
+        margin:0px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+
+    }
+
+    .inputText {
+        display: block;
+        margin: 20px 0px 20px 0px;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border: none;
+        background-color: #f6f6f6;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    #botaoVerde{
+
+        background-color:#44c767;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:4px 30px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+
+    }
+    #botaoVerde:hover{
+        background-color:#5cbf2a;
+        position:relative;
+        top:1px;
+    }
+
+    #popup_mensagem{
+        position: fixed;
+        top:300px;
+        margin:auto;
+        width: 300px;
+        min-height: 250px;
+        padding: 20px 20px 20px 20px;
+        border-width: 2px;
+        border-style: solid;
+        background: black;
+        border-radius: 25px;
+        
+        
+        
+    }
+    #popupContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px 0 20px 0;
+       
+    }
+    #popupContainer2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px 0 20px 0;
+
+    }
+    #popupContainer>h1{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.4em;
+        color: red;
+        word-spacing: 5px;
+        line-height: 18pt;
+        text-align: center;
+        padding: 10px;
+    }
+    #popupContainer>h2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #FFFFFF;
+        word-spacing: 5px;
+        line-height: 18pt;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .none {
+        display: none;
+    }
+
+ 
+  
+
+ 
+}
+
+@media (min-width: 1024px) {
+    .none{
+        display: none;
+    }
+   
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        min-height: 84%;
+       
+        width: 100%;
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+ 
+    #mainContainer{
+        
+        min-height: 450px;
+        width: 90%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+       
+       
+    }
+    #MainContainerUm{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        justify-content: space-between;
+    }
+
+   
+
+    .flex-collum{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+     
+    }
+    .inputText{
+        display: block;
+        margin:20px 0px 20px 0px ;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border:none;
+        background-color: #f6f6f6;
+        padding-left: 20px;
+        padding-right : 20px ;
+        width :500px;
+    }
+
+    .inputText:focus{
+        outline-style: none;
+    }
+    .espacoForm{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 10px;
+       
+        background: radial-gradient(circle,rgba(142,167,196,0.9528186274509804) 0%, rgb(149 169 193 / 35%) 0%);
+        border-radius: 20px;
+    }
+    .H1{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.6em;
+        color: #666666;
+        margin:20px 0px 20px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+        
+    }
+    
+
+    .H2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.4em;
+        color: #666666;
+        margin:10px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+       
+
+    }
+
+    .H3{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #666666;
+        margin:0px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+
+    }
+
+    .inputText {
+        display: block;
+        margin: 20px 0px 20px 0px;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border: none;
+        background-color: #f6f6f6;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    #botaoVerde{
+
+        background-color:#44c767;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:4px 30px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+
+    }
+    #botaoVerde:hover{
+        background-color:#5cbf2a;
+        position:relative;
+        top:1px;
+    }
+
+    #popup_mensagem{
+        position: fixed;
+        top:300px;
+        margin:auto;
+        width: 300px;
+        min-height: 250px;
+        padding: 20px 20px 20px 20px;
+        border-width: 2px;
+        border-style: solid;
+        background: black;
+        border-radius: 25px;
+        
+        
+        
+    }
+    #popupContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px 0 20px 0;
+       
+    }
+    #popupContainer2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px 0 20px 0;
+
+    }
+    #popupContainer>h1{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.4em;
+        color: red;
+        word-spacing: 5px;
+        line-height: 18pt;
+        text-align: center;
+        padding: 10px;
+    }
+    #popupContainer>h2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #FFFFFF;
+        word-spacing: 5px;
+        line-height: 18pt;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .none {
+        display: none;
+    }
+
+ 
+  
+   
+}

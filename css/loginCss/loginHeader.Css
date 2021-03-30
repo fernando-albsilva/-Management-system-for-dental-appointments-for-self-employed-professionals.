@@ -1,0 +1,115 @@
+@media (max-width: 800px) {
+    header{
+        height: 8%;
+        width: 100%;
+        min-height: 50px;
+        background-color: #093b46;
+    }
+    nav{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+       justify-content: space-around;
+       
+    }
+
+    nav>img{
+        height: 90%;
+    }
+   
+    .textoNav{
+        display: inline-block;
+        margin-left: 50px;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #ffffff;
+        font-size: 1.0em;
+        
+    }
+     
+    .textoNav:hover{
+       color: #747474;
+        
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+    header{
+        height: 8%;
+        min-height: 50px;
+        width: 100%;
+        background-color: #093b46;
+    }
+    nav{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+       justify-content: space-around;
+       
+    }
+
+    nav>img{
+        height: 90%;
+    }
+   
+    .textoNav{
+        display: inline-block;
+        margin-left: 80px;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #ffffff;
+        font-size: 1.2em;
+        
+    }
+     
+    .textoNav:hover{
+       color: #747474;
+        
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    header{
+        height: 8%;
+        min-height: 50px;
+        width: 100%;
+        background-color: #093b46;
+    }
+    nav{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+       justify-content: space-around;
+       
+    }
+
+    nav>img{
+        height: 60%;
+    }
+   
+    .textoNav{
+        display: inline-block;
+        margin-left: 50px;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #ffffff;
+        font-size: 1.2em;
+        
+    }
+     
+    .textoNav:hover{
+       color: #747474;
+        
+    }
+}

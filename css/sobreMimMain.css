@@ -1,0 +1,178 @@
+@media (max-width: 800px) {
+
+    main{
+        
+        background-color: #FFFFFF;
+        height: 2000px;
+    } 
+    #mainContainer{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content:space-around ;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+       
+    }
+    #mainContainer>img{
+        height: 300px;
+        
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 10px solid #4fc9e0;
+        border-radius: 10px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    #artigoTexto{
+        margin-bottom: 50px;
+    }
+
+    #artigoTexto>h2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #666666;
+    display: inline-block;
+    border-bottom: 2px solid #4fc9e0;
+    padding-bottom: 5px;
+
+    }
+    .textoItalico{
+        font-style: italic;
+    }
+
+
+
+
+    #artigoTexto>p {
+    font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #666666;
+    margin: 10px 0px 10px 0px;
+    word-spacing: 5px;
+    line-height: 16pt;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+
+    main{
+        
+        background-color: #FFFFFF;
+        height: 1300px;
+    } 
+    #mainContainer{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content:space-around ;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+       
+    }
+    #mainContainer>img{
+        height: 350px;
+        
+        margin-top: 50px;
+        border: 10px solid #4fc9e0;
+        border-radius: 10px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    #artigoTexto{
+        margin-bottom: 50px;
+    }
+
+    #artigoTexto>h2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #666666;
+    display: inline-block;
+    border-bottom: 2px solid #4fc9e0;
+    padding-bottom: 5px;
+
+    }
+    .textoItalico{
+        font-style: italic;
+    }
+
+
+
+
+    #artigoTexto>p {
+    font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #666666;
+    margin: 10px 0px 10px 0px;
+    word-spacing: 5px;
+    line-height: 16pt;
+}
+}
+
+@media (min-width: 1025px) {
+
+    main{
+        
+        background-color: #FFFFFF;
+        height: 1300px;
+    } 
+    #mainContainer{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content:space-around ;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+       
+    }
+    #mainContainer>img{
+        height: 400px;
+        
+        margin-top: 50px;
+        border: 10px solid #4fc9e0;
+        border-radius: 10px;
+        padding: 2px 2px 2px 2px;
+    }
+
+    #artigoTexto{
+        margin-bottom: 50px;
+    }
+
+    #artigoTexto>h2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #666666;
+    display: inline-block;
+    border-bottom: 2px solid #4fc9e0;
+    padding-bottom: 5px;
+
+    }
+    .textoItalico{
+        font-style: italic;
+    }
+
+
+
+
+    #artigoTexto>p {
+    font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+    font-weight: normal;
+    font-size: 1.0em;
+    color: #666666;
+    margin: 10px 0px 10px 0px;
+    word-spacing: 5px;
+    line-height: 18pt;
+}
+
+}

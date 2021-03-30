@@ -1,0 +1,235 @@
+/*smartphone*/
+@media ( max-width:800px) {
+    footer{
+        background-color: #093b46;
+    }
+
+    #footerContainer{
+        width: 90%;
+        height: 1670px;
+        margin: auto;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+    .footerRedesSociais>h3,.footerLocaisAtendimento>h3{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: bold;
+        font-size: 1.2em;
+        color: #FFFFFF;
+        display: inline-block;
+        border-bottom: 2px solid #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        display: block;
+    }
+  
+    .imgFooter{
+        height: 50px;
+        margin-right: 10px;
+       
+    
+    }
+
+     .linkFooter>p{
+        color: #FFFFFF;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-size: 1.0em;
+    
+    }
+
+    .linkFooter{
+        display: flex;
+        align-items: center;
+        
+        flex-direction: row;
+        flex-wrap:wrap;
+        margin-bottom: 20px;
+    }
+    .footerLocaisAtendimento{
+       
+        margin-left:auto;
+        margin-right: auto;
+      
+    }
+    .linkFooterLocalAtendimento{
+        display: block;
+        padding: 10px 0 10px 0 ;
+        border-bottom: solid 2px #FFFFFF;
+      
+    }
+    .linkFooterLocalAtendimento>h4,.linkFooterLocalAtendimento>p{
+        color: #FFFFFF;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-size: 1.1em;
+        display: block;
+        line-height: 20pt;
+    }
+    .linkFooterLocalAtendimento>h4{
+        font-weight: bold;
+    }
+  
+
+}
+
+
+/*tablet*/
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    footer{
+        background-color: #093b46;
+    }
+
+    #footerContainer{
+        width: 90%;
+        height: 1500px;
+        margin: auto;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+    .footerRedesSociais>h3,.footerLocaisAtendimento>h3{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #FFFFFF;
+        display: inline-block;
+        border-bottom: 2px solid #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        display: block;
+    }
+  
+    .imgFooter{
+        height: 50px;
+        margin-right: 10px;
+       
+    
+    }
+
+     .linkFooter>p{
+        color: #FFFFFF;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-size: 1.1em;
+    
+    }
+
+    .linkFooter{
+        display: flex;
+        align-items: center;
+        
+        flex-direction: row;
+        flex-wrap:wrap;
+        margin-bottom: 20px;
+    }
+    .footerLocaisAtendimento{
+        width: 90%;
+        margin:auto;
+      
+    }
+    .linkFooterLocalAtendimento{
+        display: block;
+        padding: 10px;
+        border-bottom: solid 2px #FFFFFF;
+      
+    }
+    .linkFooterLocalAtendimento>h4,.linkFooterLocalAtendimento>p{
+        color: #FFFFFF;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-size: 1.1em;
+        display: block;
+        line-height: 20pt;
+    }
+    .linkFooterLocalAtendimento>h4{
+        font-weight: bold;
+    }
+  
+ 
+}
+
+
+/*desktop*/
+@media (min-width: 1024px) {
+
+    footer{
+        background-color: #093b46;
+    }
+
+    #footerContainer{
+        width: 90%;
+        height: 1300px;
+        margin: auto;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+
+    .footerRedesSociais>h3,.footerLocaisAtendimento>h3{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #FFFFFF;
+        display: inline-block;
+        border-bottom: 2px solid #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        display: block;
+    }
+  
+    .imgFooter{
+        height: 50px;
+        margin-right: 10px;
+       
+    
+    }
+
+     .linkFooter>p{
+        color: #FFFFFF;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-size: 1.1em;
+    
+    }
+
+    .linkFooter{
+        display: flex;
+        align-items: center;
+        
+        flex-direction: row;
+        flex-wrap:wrap;
+        margin-bottom: 20px;
+    }
+    .footerLocaisAtendimento{
+        width: 90%;
+        margin:auto;
+      
+    }
+    .linkFooterLocalAtendimento{
+        display: block;
+        padding: 10px;
+        border-bottom: solid 2px #FFFFFF;
+      
+    }
+    .linkFooterLocalAtendimento>h4,.linkFooterLocalAtendimento>p{
+        color: #FFFFFF;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-size: 1.1em;
+        display: block;
+        line-height: 20pt;
+    }
+    .linkFooterLocalAtendimento>h4{
+        font-weight: bold;
+    }
+  
+ 
+
+}

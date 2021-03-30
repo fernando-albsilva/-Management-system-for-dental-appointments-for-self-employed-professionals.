@@ -1,0 +1,553 @@
+/*smartphone layout*/
+@media ( max-width:800px) {
+    main {
+        height: 4450px;
+        background-color: #f2f2f2;
+    }
+
+    .h2Main{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: bold;
+        font-size: 1.2em;
+        color: #666666;
+        display: inline-block;
+        border-bottom: 2px solid #4fc9e0;
+        padding-bottom: 5px;
+       
+    }
+    .p2Main{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #666666;
+        margin:10px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 18pt;
+    }
+    #mainContainerUm{
+        background-color: #FFFFFF;
+        background-image: linear-gradient(to right,#e2dddd 30%,#ffffff);
+    }
+    #fistArticle{
+        width: 90%;
+        height: 600px;
+        margin: auto;
+        /*background-color: tomato;*/
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #imgDentistaUm{
+        width: 300px;
+    }
+    #imgDentistaDois{
+        width: 300px;
+    }
+
+    #mainContainerDois{
+        background-color: #FFFFFF;
+        
+
+        
+    }
+    #secondArticle{
+        width: 90%;
+        height: 1100px;
+        margin: auto;
+        /*background-color: tomato;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        
+
+       
+    }
+    #imgDentistaTres{
+        width: 70%;
+        border: 10px solid #4fc9e0;
+        border-radius: 10px;
+        padding: 2px 2px 2px 2px;
+        
+
+    }
+    #mainContainerDois_Dois{
+        width: 90%;
+    }
+
+    #mainContainerTres{
+
+        background-image: linear-gradient(to left,#4fc9e0 10%,#1283b8);
+        height: 2750px;
+       
+        margin: auto;
+        
+    }
+    #thirdArticle{
+        width: 90%;
+        margin: auto;
+    }
+    #mainContainerTres>article>h2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: bold;
+        font-size: 1.6em;
+        color: #FFFFFF;
+        display: inline-block;
+        border-bottom: 2px solid #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+    #servicosContainer{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap:wrap;
+      
+
+
+    }
+
+    
+    .quadroServico{
+        border: 2px solid #FFFFFF;
+        height: 350px;
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+        padding: 20px 10px 20px 10px;
+
+    }
+    .quadroServico>h4{
+       display: block;
+       font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+       font-weight: bold;
+       font-size: 1.4em;
+       color: #FFFFFF;
+       padding-bottom: 5px;
+       margin-top: 15px;
+       margin-bottom: 15px;
+
+    }
+    .quadroServico>p{
+        display: block;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 20pt;
+ 
+     }
+
+    .quadroServico>img{
+        display: block;
+        height: 40px;
+    }
+    .quadroServico>p.remover{
+        display: none;
+    }
+
+}
+
+
+/*tablet layout*/
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    main {
+        height: 1500px;
+        background-color: #f2f2f2;
+    }
+
+
+    .h2Main{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #666666;
+        display: inline-block;
+        border-bottom: 2px solid #4fc9e0;
+        padding-bottom: 5px;
+       
+    }
+    .p2Main{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.2em;
+        color: #666666;
+        margin:10px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 20pt;
+    }
+   
+    #mainContainerUm{
+        background-color: #FFFFFF;
+        background-image: linear-gradient(to left,#e2dddd 30%,#ffffff);
+    }
+    #fistArticle{
+        width: 90%;
+        height: 600px;
+        margin: auto;
+        /*background-color: tomato;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #imgDentistaUm{
+        height: 144px;
+        
+    }
+    #imgDentistaDois{
+        height: 320px;
+    }
+
+    #mainContainerDois{
+        background-color: #FFFFFF;
+        
+
+        
+    }
+    #secondArticle{
+        width: 90%;
+        height: 900px;
+        margin: auto;
+        /*background-color: tomato;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+
+       
+    }
+    #imgDentistaTres{
+        height: 400px;
+        border: 10px solid #4fc9e0;
+        border-radius: 10px;
+        padding: 2px 2px 2px 2px;
+        
+
+    }
+    #mainContainerDois_Dois{
+        width: 90%;
+    }
+
+    #mainContainerTres{
+
+        background-image: linear-gradient(to left,#4fc9e0 10%,black);
+        height: 1200px;
+       
+        margin: auto;
+        
+    }
+    #thirdArticle{
+        width: 90%;
+        margin: auto;
+    }
+    #mainContainerTres>article>h2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: bold;
+        font-size: 1.6em;
+        color: #FFFFFF;
+        display: inline-block;
+        border-bottom: 2px solid #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+    #servicosContainer{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap:wrap;
+      
+
+
+    }
+
+    
+    .quadroServico{
+        border: 2px solid #FFFFFF;
+        height: 450px;
+        width: 350px;
+        margin: 20px 60px 20px 20px;
+        padding: 10px 10px 10px 10px;
+
+    }
+    .quadroServico>h4{
+       display: block;
+       font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+       font-weight: bold;
+       font-size: 1.3em;
+       color: #FFFFFF;
+       padding-bottom: 5px;
+       margin-top: 15px;
+       margin-bottom: 15px;
+
+    }
+    .quadroServico>p{
+        display: block;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 18pt;
+ 
+     }
+
+    .quadroServico>img{
+        display: block;
+        height: 60px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*desktop layout*/
+@media (min-width: 1024px) {
+    main {
+        height: 2600px;
+        background-color: transparent;
+    }
+
+    .h2Main{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #666666;
+        display: inline-block;
+        border-bottom: 2px solid #4fc9e0;
+        padding-bottom: 5px;
+       
+    }
+    .p2Main{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.2em;
+        color: #666666;
+        margin:10px 0px 10px 0px ;
+        word-spacing: 5px;
+        line-height: 20pt;
+    }
+   
+
+    #mainContainerUm{
+       
+        background-image: linear-gradient(to left,#e2dddd 30%,#ffffff);
+    }
+    #fistArticle{
+        width: 90%;
+        height: 600px;
+        margin: auto;
+        /*background-color: tomato;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #imgDentistaUm{
+        height: 200px;
+    }
+    #imgDentistaDois{
+        height: 350px;
+        border: 10px solid #093b46;
+        border-radius: 220px;
+    }
+    #mainContainerDois{
+        background-color: #FFFFFF;
+        
+
+        
+    }
+    #secondArticle{
+        width: 90%;
+        height: 800px;
+        margin: auto;
+        /*background-color: tomato;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+       
+    }
+    #imgDentistaTres{
+        height: 400px;
+        border: 10px solid #4fc9e0;
+        border-radius: 10px;
+        padding: 2px 2px 2px 2px;
+        
+
+    }
+    #mainContainerDois_Dois{
+        width: 40%;
+    }
+
+    #mainContainerTres{
+
+        background-image: linear-gradient(to left,#4fc9e0 10%,#1283b8);
+        height: 1200px;
+       
+        margin: auto;
+        
+    }
+    #thirdArticle{
+        width: 90%;
+        margin: auto;
+    }
+    #mainContainerTres>article>h2{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: bold;
+        font-size: 1.6em;
+        color: #FFFFFF;
+        display: inline-block;
+        border-bottom: 2px solid #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+    #servicosContainer{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap:wrap;
+      
+
+
+    }
+
+    
+    .quadroServico{
+        border: 2px solid #FFFFFF;
+        height: 450px;
+        width: 350px;
+        margin: 20px 40px 20px 20px;
+        padding: 10px 10px 10px 10px;
+
+    }
+    .quadroServico>h4{
+       display: block;
+       font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+       font-weight: bold;
+       font-size: 1.3em;
+       color: #FFFFFF;
+       padding-bottom: 5px;
+       margin-top: 15px;
+       margin-bottom: 15px;
+
+    }
+    .quadroServico>p{
+        display: block;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 18pt;
+ 
+     }
+
+    .quadroServico>img{
+        display: block;
+        height: 60px;
+    }
+}
+
+
+
+
+
+/*main 3 tamanho*/
+@media screen and (min-width: 1024px) and (max-width: 1461px) {
+
+    #mainContainerTres{
+
+       
+        height: 1700px;
+       
+      
+        
+    }
+    main{
+        height: 3100px;
+    }
+
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+   main{
+    height: 3400px;
+   }
+    #mainContainerTres{
+
+        background-image: linear-gradient(to left,#4fc9e0 10%,#1283b8);
+        height: 1900px;
+       
+        margin: auto;
+        
+    }
+
+    .quadroServico{
+        border: 2px solid #FFFFFF;
+        height: 200px;
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+        padding: 20px 10px 20px 10px;
+
+    }
+    .quadroServico>h4{
+       display: block;
+       font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+       font-weight: bold;
+       font-size: 1.4em;
+       color: #FFFFFF;
+       padding-bottom: 5px;
+       margin-top: 15px;
+       margin-bottom: 15px;
+
+    }
+    .quadroServico>p{
+        display: block;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        font-weight: normal;
+        font-size: 1.0em;
+        color: #FFFFFF;
+        padding-bottom: 5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 20pt;
+ 
+     }
+
+    .quadroServico>img{
+        display: block;
+        height: 40px;
+    }
+    .quadroServico>p.remover{
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,285 @@
+@media (max-width: 800px) {
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        height: 84%;
+        min-height: 400px;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #formContainer{
+        height: 90%;
+        width: 90%;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #000;
+        -webkit-box-shadow: 5px 5px 10px #000;
+        -moz-box-shadow: 5px 5px 10px #000;
+
+
+    }
+    #formLogin{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap ;
+         align-items: center;
+
+    }
+    .formLoginMensagem{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #3a3737;
+        font-size: 1.4em;
+        margin-top: 85px;
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+    .formLoginEtiqueta{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #3a3737;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+       
+    }
+    .formtTextInputUsuario{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border:none;
+        background-color: #e6e6e6;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .formtTextInputUsuario:focus{
+        outline-style: none;
+    }
+
+    .formtTextInputSenha{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border:none;
+        background-color: #e6e6e6;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 12px;
+    }
+    .formtTextInputSenha:focus{
+        outline-style: none;
+    }
+    #botaoForm{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color:#ffffff;
+        margin-top:50px ;
+        border-radius: 10px;
+        background-color: #093b46;
+        padding: 15px 30px 15px 30px;
+        border:none;
+    }
+    #botaoForm:hover{
+        background-color: #002a33;
+        cursor: pointer;
+    }
+    #botaoForm:focus{
+        outline-style: none;
+    }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        height: 84%;
+        min-height: 400px;
+        width: 100%;
+        min-width: 400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #formContainer{
+        height: 400px;
+        width: 400px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #000;
+        -webkit-box-shadow: 5px 5px 10px #000;
+        -moz-box-shadow: 5px 5px 10px #000;
+
+
+    }
+    #formLogin{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap ;
+         align-items: center;
+
+    }
+    .formLoginMensagem{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #3a3737;
+        font-size: 1.4em;
+        margin-top: 85px;
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+    .formLoginEtiqueta{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #3a3737;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+       
+    }
+    .formtTextInputUsuario{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border:none;
+        background-color: #e6e6e6;
+        padding-left: 20px;
+        padding-right : 20px ;
+    }
+    .formtTextInputUsuario:focus{
+        outline-style: none;
+    }
+
+    .formtTextInputSenha{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border:none;
+        background-color: #e6e6e6;
+        padding-left: 20px;
+        padding-right : 20px ;
+        margin-left: 12px;
+    }
+    .formtTextInputSenha:focus{
+        outline-style: none;
+    }
+    #botaoForm{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color:#ffffff;
+        margin-top:50px ;
+        border-radius: 10px;
+        background-color: #093b46;
+        padding: 15px 30px 15px 30px;
+        border:none;
+    }
+    #botaoForm:hover{
+        background-color: #002a33;
+        cursor: pointer;
+    }
+    #botaoForm:focus{
+        outline-style: none;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+   
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        height: 84%;
+        min-height: 400px;
+        width: 100%;
+        min-width: 400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #formContainer{
+        height: 400px;
+        width: 400px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #000;
+        -webkit-box-shadow: 5px 5px 10px #000;
+        -moz-box-shadow: 5px 5px 10px #000;
+
+
+    }
+
+    #formLogin{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap ;
+         align-items: center;
+
+    }
+    .formLoginMensagem{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #3a3737;
+        font-size: 1.4em;
+        margin-top: 85px;
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+    .formLoginEtiqueta{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #3a3737;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+       
+    }
+    .formtTextInputUsuario{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border:none;
+        background-color: #e6e6e6;
+        padding-left: 20px;
+        padding-right : 20px ;
+    }
+    .formtTextInputUsuario:focus{
+        outline-style: none;
+    }
+
+    .formtTextInputSenha{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        border-radius: 20px;
+        height: 30px;
+        border:none;
+        background-color: #e6e6e6;
+        padding-left: 20px;
+        padding-right : 20px ;
+        margin-left: 12px;
+    }
+    .formtTextInputSenha:focus{
+        outline-style: none;
+    }
+    #botaoForm{
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color:#ffffff;
+        margin-top:50px ;
+        border-radius: 10px;
+        background-color: #093b46;
+        padding: 15px 30px 15px 30px;
+        border:none;
+    }
+    #botaoForm:hover{
+        background-color: #002a33;
+        cursor: pointer;
+    }
+    #botaoForm:focus{
+        outline-style: none;
+    }
+
+
+}

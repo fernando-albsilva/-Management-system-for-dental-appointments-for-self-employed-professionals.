@@ -1,0 +1,101 @@
+@media (max-width: 800px) {
+    footer{
+        height: 8%;
+        min-height: 50px;
+        width: 100%;
+        background-color: #093b46;
+     
+    }
+    #footerContainer{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+       justify-content: center;
+       
+    }
+    #footerContainer>h1{
+       
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color:#ffffff;
+        font-size: 0.8em;
+    }
+
+    
+    #copyRightFooter{
+        height: 50%;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+    footer{
+        height: 8%;
+        min-height: 50px;
+        width: 100%;
+        background-color: #093b46;
+     
+    }
+    #footerContainer{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+       justify-content: center;
+       
+    }
+
+    #footerContainer>h1{
+       
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color:#ffffff;
+        font-size: 1.2em;
+    }
+
+    #copyRightFooter{
+        height: 50%;
+        margin-right: 10px;
+    }
+  
+}
+
+@media (min-width: 1024px) {
+    footer{
+        height: 8%;
+        min-height: 50px;
+        width: 100%;
+        background-color: #093b46;
+     
+    }
+    #footerContainer{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+       justify-content:center ;
+       
+    }
+    #footerContainer>h1{
+       
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color:#ffffff;
+        font-size: 1.2em;
+    }
+
+    #copyRightFooter{
+        height: 50%;
+        margin-right: 10px;
+    }
+  
+     
+    
+}

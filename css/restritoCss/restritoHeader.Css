@@ -1,0 +1,196 @@
+@media (max-width: 980px) {
+    header{
+        height: 8%;
+        width: 100%;
+        min-height: 50px;
+        background-color: #093b46;
+    }
+    nav{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+       justify-content: space-around;
+       
+    }
+
+    nav>img{
+        height: 90%;
+    }
+   
+    nav>ul{
+        display: none;
+    }
+    .textoNav{
+        display: inline-block;
+        margin-left: 50px;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #ffffff;
+        font-size: 1.0em;
+        
+    }
+     
+    .textoNav:hover{
+       color: #747474;
+        
+    }
+
+    .botaoNav {
+        background-color: #FFFFFF;
+        box-shadow: inset -2px -2px 3px 0px #000000;
+        border-radius: 20px;
+        height: 80%;
+        color: #093b46;
+        font-family: sans-serif;
+        width: 80px;
+        font-size: 1.0em;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        border: transparent;
+        outline-style: none;
+    }
+    #botaoNavFechar{
+        height: 50px;
+    } 
+    .botaoNav:hover {
+        border-radius: 20px;
+        outline-style: none;
+        text-decoration: none;
+        border: transparent;
+
+    }
+    .botaoNav:focus {
+        border-radius: 20px;
+        outline-style: none;
+        text-decoration: none;
+        border: transparent;
+
+    }
+    #menuMobile {
+        border: 1px solid;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, #093b46 20%, #1c88a0e0);
+        padding: 1em;
+        margin: 0;
+        height: 100%;
+        width: 80%;
+        max-width: 320px;
+        max-height: 530px;
+        position: fixed;
+        /*z-index: 1;*/
+        top: 0;
+        /*transition: right 3s ease-out;*/
+        right: 0%;
+    }
+    .ulMenuMobile {
+        margin-top: 40px;
+        background-color: transparent;
+    }
+    .ulMenuMobile>li {
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        background-color: transparent;
+        color: #FFFFFF;
+        border-bottom: dotted #FFFFFF;
+        font-size: 1.2em;
+    }
+    .ulMenuMobile>li:hover {
+        color: #002869;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1250px) {
+    header{
+        height: 8%;
+        min-height: 50px;
+        width: 100%;
+        background-color: #093b46;
+    }
+    nav{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+       justify-content: space-between;
+       
+    }
+
+    nav>img{
+        height: 90%;
+    }
+   
+    .textoNav{
+        display: inline-block;
+        margin-left: 25px;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #ffffff;
+        font-size: 1.1em;
+        
+    }
+     
+    .textoNav:hover{
+       color: #747474;
+        
+    }
+    #navegacao{
+        display: none;
+    }
+    .botaoNav{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 1251px) {
+    header{
+        height: 8%;
+        min-height: 50px;
+        width: 100%;
+        background-color: #093b46;
+    }
+    nav{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+       justify-content: space-between;
+       
+    }
+
+    nav>img{
+        height: 60%;
+    }
+   
+    .textoNav{
+        display: inline-block;
+        margin-left: 50px;
+        font-family: "Roboto", "sans-serif", "Helvetica", "Calibri", "Trebuchet MS", "Arial", "Verdana";
+        color: #ffffff;
+        font-size: 1.2em;
+        
+    }
+     
+    .textoNav:hover{
+       color: #747474;
+        
+    }
+    #navegacao{
+        display: none;
+    }
+    .botaoNav{
+        display: none;
+    }
+}

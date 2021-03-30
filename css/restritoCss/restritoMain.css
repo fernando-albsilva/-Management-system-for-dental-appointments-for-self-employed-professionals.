@@ -1,0 +1,62 @@
+@media (max-width: 800px) {
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        min-height: 84%;
+        
+        width: 100%;
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+  
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        min-height: 84%;
+       
+        width: 100%;
+        min-width: 400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+  
+  
+}
+
+@media (min-width: 1024px) {
+   
+    html,body{height: 100%;}
+    main {
+        background: rgb(216, 221, 227);
+        background: radial-gradient(circle, rgba(216, 221, 227, 1) 62%, rgba(203, 211, 221, 1) 100%);
+        min-height: 84%;
+       
+        width: 100%;
+        min-width: 400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+ 
+    #quadrado{
+        height: 400px;
+        width: 400px;
+        background-color: red;
+    }
+
+}
