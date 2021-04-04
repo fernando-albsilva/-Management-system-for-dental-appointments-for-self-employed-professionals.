@@ -33,3 +33,6 @@ Simples sistema de gestão para dentistas que trabalham em diversos consultório
 
 ## Tela de Tratamento com cadastro , detalhes , edição e exlcusão.
 ![tela_de_Tratamento](https://github.com/fernando-albsilva/-Management-system-for-dental-appointments-for-self-employed-professionals./blob/main/gif/telaTratamento.gif)
+
+## Diagrama Entidade Relacionamento
+[DER](https://github.com/fernando-albsilva/-Management-system-for-dental-appointments-for-self-employed-professionals./blob/main/Diagramas/DER.png)
